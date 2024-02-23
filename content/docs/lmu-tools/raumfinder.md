@@ -1,0 +1,11 @@
+---
+title: Raumfinder
+weight: 7
+---
+
+
+Sich auf dem weitläufigen Campus der LMU zurechtzufinden, kann eine Herausforderung sein. Zum Glück bietet die LMU mit dem “Raumfinder” ein nützliches Online-Tool, um Räumlichkeiten einfach und schnell zu lokalisieren.
+Der [LMU Raumfinder](https://www.lmu.de/raumfinder), ermöglicht es Studierenden, spezifische Hörsäle,
+Seminarräume, Büros und andere Orte auf dem Campus zu finden. Gebt einfach den Namen oder die Nummer des gewünschten Raums ein, und der Raumfinder zeigt euch dessen genaue Lage an, oft ergänzt durch hilfreiche Bilder oder Grundrisse.
+Dieses Tool ist besonders fur Erstsemester und Gäste wertvoll, erleichtert es aber auch regelmäßigen Besuchern, sich in weniger
+bekannten Teilen des Campus zurechtzufinden. Denkt daran, bei eurer nächsten Suche nach einem Raum auf dem LMU-Campus den Raumfinder zu nutzen – es spart Zeit und verhindert, dass ihr euch verläuft!

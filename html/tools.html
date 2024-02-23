@@ -1,0 +1,209 @@
+<!-- Anfang des Headers, den jedes html-Dokement der Website hat-->
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <!-- notwendiges Zeug-->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Einbindung des Stylesheets unter dem jeweiligen Pfad-->
+    <link rel="stylesheet" href="index_files/style.css" type="text/css">
+
+    <!-- Titel, der im Tab der Website auftaucht-->
+    <title>Fachschaft Computerlinguistik LMU</title>
+    <!-- Symbolbild, das im Tab angezeigt wird-->
+    <link rel="icon" type="image/vnd.microsoft.icon" href="index_files/images/icons/icon_chonksky.ico">
+
+</head>
+
+<body>
+
+
+    <!-- Einbindung der Bilder des Banners. Leider noch nicht optimal-->
+    <div id="pre_header">
+        <div id="logo_long">
+            <img src="index_files/images/icons/fs-logo.png" alt="Logo FSCL" width=100%>
+        </div>
+        <div id="title">
+            <h1>Fachschaft Computerlinguistik</h1>
+        </div>
+    </div>
+
+
+    <!-- Navigationsmenü-->
+    <header>
+        <div class="container">
+            <!--<h2>LOGO</h2>-->
+            <div class="nav-toggle" id="navToggle">
+                <img id="hamburger" class="navIcon" src="index_files/images/icons/menu_chonk.ico" alt="Menu open" width=60vh>
+                <img class="navIcon hidden" src="index_files/images/icons/menu_chonk_left.ico" alt="Menu close" width=60vh>
+            </div>
+        </div>
+        <nav>
+            <ul class="no_indent">
+                <li class="list_nav"><a href="index.html">Aktuelles</a></li>
+                <!-- <li class="list_nav"><a href="events.html">Events</a></li>-->
+                <li class="list_nav"><a href="faq.html">Rund ums Studium</a></li>
+                <li class="list_nav"><a href="infos-ersties.html">CIS-Basics</a></li>
+                <li class="list_nav"><a href="wir.html">Wir: Die CISschaft</a></li>
+                <li class="list_nav">Tools und Vorlagen</li>
+                <!-- <li class="list_nav"><a href="tools.html">Tools und Vorlagen</a></li>-->
+                <li class="list_nav"><a href="archiv.html">Archiv</a></li>
+                <li class="list_nav"><a href="impressum.html">Kontaktiere uns</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- Ende des Headers, das Banner und Navigationssystem beinhaltet-->
+
+    <h3>Tools und Vorlagen</h3>
+    <hr>
+    <hr>
+    <h4>Professionelle Anwendung von Git</h4>
+    <hr>
+    <p>
+        Heutzutage ist es im IT-Bereich (dazu gehört selbstverständlich auch die Computerlinguistik) unerlässlich, einen
+        professionellen Umgang mit Git zu erlernen. Git bringt den Vorteil mit sich, dass im besten Fall ein großes Team
+        parallel an einem gemeinsamen Projekt arbeiten kann, ohne dass irgendwelche Daten gegenseitig überschrieben
+        werden. Dafür sorgt geschicktes "Branching". Aber auch für Solo-Projekte kann dies hilfreich sein.
+    </p>
+    <p>
+        Ein sogar recht spaßiges Tutorial findet sich hier:
+        <a href="https://learngitbranching.js.org/?locale=de_DE">Learn Git Branching</a>. Nur Mut: es ist wirklich eine
+        sinnvolle Investition eurer Zeit, sich damit genauer auseinanderzusetzen! 👌
+    </p>
+    <hr>
+    <h4>Einführung in Generative AI</h4>
+    <hr>
+    <p>
+        Spätestens im Master Computerlinguistik, aber auch immer mehr im Bachelor, ist Wissen über Generative AI,
+        Transformer und die zugrundeliegenden Theorien notwendig. Jay Alammar bietet
+        <a href="https://jalammar.github.io/">über seinen Blog</a> kostenlos hilfreiche und gut illustrierte Erklärungen
+        und Wissensvideos an, die einen schrittweisen Einstieg ermöglichen.
+    </p>
+    <hr>
+    <h4>Nutzung der CIP-Rechner</h4>
+    <hr>
+    <p>
+        Im Laufe eures Studiums werdet ihr früher oder später mit dem Thema <i>Maschinelles Lernen</i> und <i>Neuronale Netze</i>
+        sowohl theoretisch als auch praktisch in Berührung kommen. Hierfür werden häufig Bibliotheken wie
+        <code>PyTorch</code> genutzt, die auch GPU-Verarbeitung unterstützen. Allerdings haben nicht alle Studierenden
+        einen eigenen Rechner mit einer GPU (und dies kann selbstverständlich auch nicht erwartet werden). Stattdessen
+        verwaltet die Rechnerbetriebsgruppe mehrere Computerpools, deren Rechner auch remote angesteuert werden können
+        und welche euch ausreichend starke GPUs für Hausaufgaben oder eigene kleine Projekte zur Verfügung stellen.
+    </p>
+    <p>
+        Mit eurer CIP-Kennung, die ihr am Beginn eures Studiums erhalten habt bzw. erhalten werdet, könnt ihr euch
+        zunächst über SSH mit dem Netzwerk der Computerpools verbinden. Wenn dein Nachname "Chonksky" ist, loggst du
+        dich also folgendermaßen ein:
+    </p>
+    <code>
+        ssh chonksky@remote.cip.ifi.lmu.de
+    </code>
+    <p>
+        Nun könnt ihr nach Belieben den Rechner nutzen. Für Windows-Nutzer ist sicherlich noch das praktische Tool
+        <a href="https://winscp.net/eng/download.php">WinSCP</a> hilfreich. Mit diesem könnt ihr euch ebenfalls remote
+        einloggen und dann Dateien von eurem privaten PC auf den Uni-Rechner verschieben und umgekehrt. Ein äquivalentes
+        Produkt für Mac-Nutzende ist <a href="https://cyberduck.io/">Cyberduck</a>.
+    </p>
+    <div>
+        <figure>
+            <a href="https://fachschaft.cis.uni-muenchen.de/index_files/images/tutorials/WinSCP.png" target="_blank"><img class="qr_code" src="index_files/images/tutorials/WinSCP.png" alt="Anmeldung mit WinSCP" width=200px></a>
+            <figcaption><em>Anmeldung mit WinSCP</em></figcaption>
+        </figure>
+
+        <figure>
+            <a href="https://fachschaft.cis.uni-muenchen.de/index_files/images/tutorials/Cyberduck.jpg" target="_blank"><img class="qr_code" src="index_files/images/tutorials/Cyberduck.jpg" alt="Anmeldung mit Cyberduck" width=200px></a>
+            <figcaption><em>Anmeldung mit Cyberduck</em></figcaption>
+        </figure>
+    </div>
+    <p>
+        Praktischerweise sind alle Daten, die auf einem PC des CIP-Pools gespeichert wurden, gleichermaßen auf allen PCs
+        verfügbar. Ihr müsst euch also nicht merken, auf welchem der vielen Rechner mit mehr oder weniger
+        fantasievollen Namen ihr eure Dateien zurückgelassen habt.
+    </p>
+    <hr>
+    <h4>Verwendung von SLURM zur komfortablen Nutzung von GPUs</h4>
+    <hr>
+    <p>
+        Wie kann man nun aber sicherstellen, dass niemand anderes den PC, auf dem man automatisch eingeloggt wurde,
+        gerade nutzt? Hier kommt ein nützliches Tool namens <a href="https://slurm.schedmd.com/documentation.html">SLURM
+        Workload Manager</a> (kurz: SLURM) zum Einsatz, das auf den CIP-Rechnern bereits verfügbar ist. Leider ist die
+        Dokumentation von SLURM eher dürftig, sodass wir euch hier ein paar Infos an die Hand geben wollen, die für den
+        alltäglichen Gebrauch von SLURM hilfreich sind.
+    </p>
+    <p>
+        Zunächst ist es hilfreich, ein Skript zu verwenden, in dem man SLURM mitteilt, mit welchen Optionen die aktuelle
+        Aufgabe durchgeführt werden soll. Legt euch hierzu eine Datei mit bpsw. dem Namen <code>script.sh</code> an, die
+        folgendes enthalten muss:
+        <p>
+        <hr>
+        <code>
+            #!/bin/bash<br>
+            #<br>
+            #SBATCH --job-name=[Kurzname eures Jobs, zum Beispiel --job-name=chonksky-train]<br>
+            #SBATCH --comment=[Kurze Beschreibung des Jobs, etwa --comment="Training eines NNs"]<br>
+            #SBATCH --mail-type=ALL<br>
+            #SBATCH --mail-user=[E-Mail-Adresse, an welche Notifications gehen sollen, etwa wenn der Job beendet, gestartet, oder abgebrochen wurde, zum Beispiel --mail-user=chonksky@campus.lmu.de]<br>
+            #SBATCH --chdir=[Pfad zum Ordner eurer auszuführenden Datei, etwa --chdir=/home/c/chonksky/Desktop/mein_projekt]<br>
+            #SBATCH --output=[Wie --chdir, aber mit dem Zusatz slurm.%j.%N.out - auf diese Weise werden die Outputs sauber archiviert. Beispiel: --outputs=/home/c/chonksky/Desktop/mein_projekt/slurm.%j.%N.out]<br>
+            #SBATCH --ntasks=1<br>
+            <br>
+            python3 -u mein_programm.py param1 param2<br>
+        </code>
+        <hr>
+        </p>
+        Bitte beachtet, dass ihr für Python-Programme (und andere Programme mit Ausgaben auf den Bildschirm) die Flag
+        <code>-u</code> setzt. Dieses sorgt dafür, dass eure
+        Ausgaben in eine Datei weitergeleitet werden und nicht verloren gehen (weil sie ja normalerweise direkt auf dem
+        Bildschirm angezeigt werden). Natürlich könnt ihr auch andere Arten von Tools mit SLURM ausführen (etwa <code>
+        wget</code> zum Crawling usw.).
+    </p>
+    <p>
+        Habt ihr euch die Datei <code>script.sh</code> in denselben Ordner gelegt, in dem auch euer Programm ist, und
+        ihr auch mit <code>cd</code> dorthin gewechselt seid, seid ihr bereit, SLURM zu starten.
+    </p>
+    <code>
+        sbatch --partition=NvidiaAll script.sh
+    </code>
+    <p>
+        Der Befehl <code>sbatch</code> startet euer Programm mithilfe des zuvor angelegten Skripts. Bestätigt wird dies
+        mit einer E-Mail.
+        Interessant ist der Parameter <code>--partition</code>: Hier gebt ihr an, welche Art von Computer ihr braucht,
+        insbesondere in Hinblick auf benötigte GPUs. Folgende Partitionen stehen zur Verfügung:
+        <ul>
+            <li>All: alle Rechner ohne besondere Vorgaben zur Hardware/GPU</li>
+            <li>NvidiaAll: für Jobs, die NVIDIA CUDA als Umgebung brauchen.</li>
+            <li>Nvidia2060</li>
+            <li>Nvidia1050</li>
+            <li>AMD</li>
+        </ul>
+        Weitere Informationen finden sich auf den <a href="https://www.rz.ifi.lmu.de/announcements/2022-11-07a_de.html">
+        Seiten der Rechnerbetriebsgruppe.</a>
+    </p>
+    <p>
+        Mittels der Anweisung <code>squeue</code> könnt ihr euch eine Liste mit allen aktuell laufenden Jobs anzeigen
+        lassen, wo sich nun auch euer Programm finden sollte. Der Befehl <code>scancel 12345</code> beendet euren Job
+        vorzeitig; ersetzt hierzu die <code>12345</code> durch die angezeigte Job-Nummer, die ihr mit
+        <code>squeue</code> sehen könnt.
+    </p>
+
+
+
+
+    <footer class="monospace ">
+        <center>
+            <!-- <a href="# ">Impressum </a>&nbsp;|&nbsp;
+                <a href="# ">Rechtliches </a>&nbsp;|&nbsp;
+                <a href="# ">Datenschutz </a><br> -->
+            Stand: 08.07.2023 <br> ©Fachschaft Computerlinguistik, Ludwig-Maximilians-Universität München
+        </center>
+    </footer>
+
+    <script src="main.js "></script>
+
+</body>
+
+</html>

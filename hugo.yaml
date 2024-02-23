@@ -1,0 +1,49 @@
+baseURL: https://example.org/
+languageCode: de
+title: Fachschaft Computerlinguistik
+theme: "hextra"
+
+params:
+  navbar:
+    displayTitle: false
+    displayLogo: true
+    logo:
+      path: images/logo.png
+      dark: images/logo_dark.png
+      link: /
+      width: 160
+      height: 40
+
+menu:
+  main:
+    - name: Start
+      pageRef: /
+      weight: 1
+    - name: Veranstaltungen
+      pageRef: /events
+      weight: 2
+    - name: Infos & Guides
+      pageRef: /docs
+      weight: 3
+    - name: Über Uns
+      pageRef: /about
+      weight: 5
+    - name: Suche
+      weight: 6
+      params:
+        type: search
+    - name: Facebook
+      weight: 7
+      url: "https://www.facebook.com/CISschaft/"
+      params:
+        icon: facebook
+    - name: Instagram
+      weight: 8
+      url: "https://www.instagram.com/fachschaft_computerlinguistik/?igshid=YmMyMTA2M2Y%3D"
+      params:
+        icon: instagram
+    - name: GitLab
+      weight: 9
+      url: "https://gitlab2.cip.ifi.lmu.de/altinger/website-fscl/"
+      params:
+        icon: gitlab

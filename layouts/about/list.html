@@ -1,0 +1,142 @@
+{{ define "main" }}
+  <div class='mx-auto flex {{ partial "utils/page-width" . }}'>
+    {{ partial "sidebar.html" (dict "context" . "disableSidebar" true) }}
+    <div class="w-full break-words flex flex-col min-h-[calc(100vh-var(--navbar-height))] min-w-0 justify-start pb-8 pr-[calc(env(safe-area-inset-right)-1.5rem)]">
+
+      <section class="flex max-w-[90rem] flex-col items-start gap-2 px-6 sm:px-4 pt-8 md:pt-12">
+        <h1 class="text-4xl font-bold leading-tight tracking-tighter md:text-5xl mt-6 bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-gray-600 dark:from-gray-100 dark:to-gray-400">
+          CISschaft&nbsp;<br class="sm:block hidden" />
+        </h1>
+
+        <p class="mt-4 text-xl text-gray-600 dark:text-gray-400 sm:text-xl">
+            Wir sind eine Gruppe Studierender des CIS (egal ob Haupt- oder Nebenfach). Wir vermitteln zwischen Studierenden und 
+            Dozierenden und planen Veranstaltungen (z.B. Ersti-Aktion, Sommerfest, Weihnachtsfeier, Waffelverkauf etc.).
+            Dazu treffen wir uns - je nachdem, wieviel ansteht - alle ein bis zwei Wochen in unserem Raum in der Oettingenstraße 
+            (Raum 127), man kann sich aber auch per Zoom zuschalten.            
+        </p>
+      </section>
+
+      <section class="flex max-w-[90rem] flex-col items-start gap-2 px-6 sm:px-4 pt-8 pb-8">
+        <h2 class="text-4xl font-bold leading-tight tracking-tighter md:text-4xl mt-6 bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-gray-600 dark:from-gray-100 dark:to-gray-400">
+          Mitglieder&nbsp;<br class="sm:block hidden" />
+        </h2>
+        <div class="mt-6 grid sm:grid-cols-2 lg:grid-cols-3 grid-cols-1 gap-4 w-full">
+          <ul>
+            <li>Laurin Gerhardt</li>
+            <li>Niklas Greifenstein</li>
+            <li>Marwin Härttrich</li>
+            <li>Noah König</li>
+          </ul>
+          <ul>
+            <li>Antoaneta Mihaljevich</li>
+            <li>Jakob Murauer</li>
+            <li>Monica Riedler</li>
+            <li>Elisa Rieß</li>
+          </ul>
+          <ul>
+            <li>Val Ring</li>
+            <li>Tim Sockel</li>
+            <li>Ivo de Souza Bueno Jr.</li>
+            <li>Sarah Anna Uffelmann</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="flex max-w-[90rem] flex-col items-start gap-2 px-6 sm:px-4 pt-8 pb-8">
+        <h2 class="text-4xl font-bold leading-tight tracking-tighter md:text-4xl mt-6 bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-gray-600 dark:from-gray-100 dark:to-gray-400">
+          Ämter&nbsp;<br class="sm:block hidden" />
+        </h2>
+        <div class="mt-6 grid sm:grid-cols-2 lg:grid-cols-3 grid-cols-1 gap-4 w-full">
+          {{ template "department" (dict
+              "title" "Fachschaftssprecher"
+              "people" (slice "Lena" "Tim" "Monica")
+            )
+          }}
+          {{ template "department" (dict
+              "title" "Vertreter im Fakultätskonvent"
+              "people" (slice "Sarah" "Lena")
+            )
+          }}
+          {{ template "department" (dict
+              "title" "Vertreter im Konvent der Fachschaften"
+              "people" (slice "Niklas" "Toni")
+            )
+          }}
+          {{ template "department" (dict
+              "title" "Finanzen"
+              "people" (slice "Monica" "Tim")
+            )
+          }}
+          {{ template "department" (dict
+              "title" "Webauftritt"
+              "people" (slice "Lena" "Tim" "Marwin")
+            )
+          }}
+        </div>
+      </section>
+      
+      <section class='max-w-[90rem] gap-4 gap-2 px-6 sm:px-4'>
+        {{ template "details" (dict
+          "title" "Fachschaftssprecher*in"
+          "closed" "true"
+          "inner" "Der Vorsitz vertritt die Fachschaft nach außen und leitet, zusammen mit den Stellvertretenden, die Fachschaftssitzungen."
+          ) 
+        }}
+        {{ template "details" (dict
+          "title" "Vertreter*in im Fakultätskonvent"
+          "closed" "true"
+          "inner" "Der Fakultätskonvent besteht aus den Vertretenden aller Fachschaften der Fakultät. In der Fakultät 13 kommt er einmal im Jahr, nach den Hochschulwahlen, zusammen und wählt die studentische Vertretung für den Fakultätsrat und für die Studienbeitragskommission."
+          )
+        }} 
+        {{ template "details" (dict
+          "title" "Vertreter*in im Konvent der Fachschaften"
+          "closed" "true"
+          "inner" "Der Konvent der Fachschaften ist quasi das Parlament der Studierenden. Er entscheidet in allen Angelegenheiten, die die Studierenden der Universität insgesamt oder Studierende mehrerer Fakultäten betreffen. Er wählt eine Geschäftsführung und Referent/innen für einzelne Aufgaben. Außerdem entsendet er die studentischen Vertretungen in zentrale und fakultätsübergreifende Gremien und Kommissionen der Universität. Alle Gewählten bilden gemeinsam die Studierendenvertretung (StuVe). Mitglieder werden von den Fachschaften entsandt und haben je eine Stimme. Je nach Zahl der Studierenden der Fachschaft hat die Vertretung im Konvent 1 bis 22 Stimmgewichte. Für einen Beschluss bedarf es im Konvent der einfachen Mehrheit der Stimmen und Stimmgewichte. Der Konvent tagt jeden zweiten Mittwoch im Semester."
+          )
+        }}
+        &ensp;<br class="sm:block hidden" />
+      </section>
+
+      <section class="flex max-w-[90rem] flex-col gap-2 gap-2 px-6 sm:px-4 pt-8 pb-8">
+        <h2 class="text-4xl font-bold leading-tight tracking-tighter md:text-4xl mt-6 bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-gray-600 dark:from-gray-100 dark:to-gray-400">
+          Ehemalige Mitglieder&nbsp;<br class="sm:block hidden" />
+        </h2>
+        <div class="mt-6 grid sm:grid-cols-2 lg:grid-cols-3 grid-cols-1 gap-4 w-full">
+          <ul>
+            <li>Annika Haase</li>
+            <li>Sebastian Loftus</li>
+          </ul>
+        </div>
+      </section>
+
+    </div>
+  </div>
+{{- end -}}
+
+
+{{ define "department" }}
+<div class="department group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900">
+  <span class="flex font-semibold items-start gap-2 pt-4 px-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50">
+    {{ .title }}
+  </span>
+  <div class="line-clamp-3 text-sm font-normal text-gray-500 dark:text-gray-400 px-4 mb-4 mt-2">
+    <ul>
+      {{ range .people }}
+        <li>{{ . }}</li>
+      {{ end }}
+    </ul>
+  </div>
+</div>
+{{ end }}
+
+
+{{ define "details" }}
+<details class="rounded-lg bg-neutral-50 dark:bg-neutral-800 p-2 mt-4" {{ if not .closed }}open{{ end }}>
+  <summary class="items-left cursor-pointer select-none list-none p-1 rounded transition-colors hover:bg-gray-100 dark:hover:bg-neutral-800 before:mr-1 before:inline-block before:transition-transform before:content-[''] dark:before:invert rtl:before:rotate-180 group-open:before:rotate-90">
+    <strong class="text-lg">{{ .title }}</strong>
+  </summary>
+  <div class="p-2 overflow-hidden">
+    {{ .inner | markdownify }}
+  </div>
+</details>
+{{ end }}

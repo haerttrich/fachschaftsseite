@@ -1,0 +1,42 @@
+{{ define "main" }}
+  <div class='bg-[url("/images/isar_chillout.jpg")] mx-auto flex {{ partial "utils/page-width" . }}'>
+    {{ partial "sidebar.html" (dict "context" . "disableSidebar" true) }}
+    <div class="w-full break-words flex flex-col min-h-[calc(100vh-var(--navbar-height))] min-w-0 justify-start pb-8 pr-[calc(env(safe-area-inset-right)-1.5rem)]">
+      
+      <section class="flex max-w-[90rem] flex-col items-start gap-2 px-6 sm:px-4 pt-8 md:pt-12">
+        <!-- <h1 class="text-4xl font-bold leading-tight tracking-tighter md:text-5xl mt-6 bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-gray-600 dark:from-gray-100 dark:to-gray-400">
+          Events&nbsp;<br class="sm:block hidden" />
+        </h1> -->
+        <p class="mt-4 text-xl text-gray-600 dark:text-gray-400 sm:text-xl">
+          Wir veranstalten regelmäßig Events. Hier findest du weitere Informationen         
+        </p>
+      </section>
+
+      {{ partial "home/upcoming_events.html" . }}
+      {{ partial "home/past_events.html" . }}
+    </div>
+  </div>
+{{ end }}
+
+
+
+{{ define "post" }}
+<a
+  class="post group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900"
+  href="{{ .RelPermalink }}"
+>
+  <h3 class="flex font-semibold items-start gap-2 pt-4 px-4 text-gray-700 dark:text-neutral-200 ">
+    {{ .Title }}
+  </h3>
+  <div class="line-clamp-3 font-normal text-gray-700 dark:text-neutral-200 px-4 mb-4 mt-2">
+    <p>
+      {{- partial "utils/page-description" . }}
+      <span class="line-clamp-3 font-normal text-gray-500 dark:text-neutral-400 px-4 mb-4 mt-2"> → read more</span>
+    </p>
+  </div>
+  <div class="line-clamp-3 text-sm font-normal text-gray-500 dark:text-gray-400 px-4 mb-4 mt-2">
+    <p>{{ partial "utils/format-date" .Date }}</p>
+  </div>
+</a>
+{{ end }}
+
