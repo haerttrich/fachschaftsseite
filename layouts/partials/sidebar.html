@@ -18,6 +18,12 @@
   <div class="hextra-scrollbar overflow-y-auto overflow-x-hidden p-4 grow md:h-[calc(100vh-var(--navbar-height)-var(--menu-height))]">
     <ul class="flex flex-col gap-1 md:hidden">
       <!-- Nav -->
+      <li class="">
+        <a class="flex items-center justify-between gap-2 cursor-pointer rounded px-2 py-1.5 text-sm transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+        text-gray-500 hover:bg-gray-100 hover:text-gray-900 contrast-more:border contrast-more:border-transparent contrast-more:text-gray-900 contrast-more:hover:border-gray-900 dark:text-neutral-400 dark:hover:bg-primary-100/5 dark:hover:text-gray-50 contrast-more:dark:text-gray-50 contrast-more:dark:hover:border-gray-50" href="/">
+        Startseite
+        </a>
+      </li>
       {{ template "sidebar-main" (dict "context" site.Home "pageURL" $pageURL "page" $context "toc" true) -}}
       {{ template "sidebar-footer" }}
     </ul>
@@ -65,15 +71,17 @@
   {{- with $items := union .context.RegularPages .context.Sections -}}
     {{- if eq $level 0 -}}
       {{- range $items.ByWeight }}
-        {{- $active := eq $pageURL .RelPermalink -}}
-        {{- $shouldOpen := or (.Params.sidebar.open) (.IsAncestor $page) $active | default true }}
-        <li class="{{ if $shouldOpen }}open{{ end }}">
-          {{- template "sidebar-item-link" dict "context" . "active" $active "title" .LinkTitle "link" .RelPermalink -}}
-          {{- if and $toc $active -}}
-            {{- template "sidebar-toc" dict "page" . -}}
-          {{- end -}}
-          {{- template "sidebar-tree" dict "context" . "page" $page "pageURL" $pageURL "level" (add $level 1) "toc" $toc -}}
-        </li>
+        {{- if not (eq .Title "News") -}}
+          {{- $active := eq $pageURL .RelPermalink -}}
+          {{- $shouldOpen := or (.Params.sidebar.open) (.IsAncestor $page) $active | default true }}
+          <li class="{{ if $shouldOpen }}open{{ end }}">
+            {{- template "sidebar-item-link" dict "context" . "active" $active "title" .LinkTitle "link" .RelPermalink -}}
+            {{- if and $toc $active -}}
+              {{- template "sidebar-toc" dict "page" . -}}
+            {{- end -}}
+            {{- template "sidebar-tree" dict "context" . "page" $page "pageURL" $pageURL "level" (add $level 1) "toc" $toc -}}
+          </li>
+        {{- end -}}
       {{- end -}}
     {{- else -}}
       <div class="pt-1 ltr:pr-0 overflow-hidden transition-all ease-in-out duration-200">
