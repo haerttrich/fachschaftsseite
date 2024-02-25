@@ -21,14 +21,14 @@ Zunächst ist es hilfreich, ein Skript zu verwenden, in dem man SLURM mitteilt, 
 python3 -u mein_programm.py param1 param2
 ```
 
-Bitte beachtet, dass ihr für Python-Programme (und andere Programme mit Ausgaben auf den Bildschirm) die Flag `-u` setzt. Dieses sorgt dafür, dass eure Ausgaben in eine Datei weitergeleitet werden und nicht verloren gehen (weil sie ja normalerweise direkt auf dem Bildschirm angezeigt werden). Natürlich könnt ihr auch andere Arten von Tools mit SLURM ausführen (etwa `wget` zum Crawling usw.).
-Habt ihr euch die Datei `script.sh` in denselben Ordner gelegt, in dem auch euer Programm ist, und ihr auch mit cd dorthin gewechselt seid, seid ihr bereit, SLURM zu starten.
+Bitte beachte, dass du für Python-Programme (und andere Programme mit Ausgaben auf den Bildschirm) die Flag `-u` setzt. Dieses sorgt dafür, dass deine Ausgaben in eine Datei weitergeleitet werden und nicht verloren gehen (weil sie ja normalerweise direkt auf dem Bildschirm angezeigt werden). Natürlich kannst du auch andere Arten von Tools mit SLURM ausführen (etwa `wget` zum Crawling usw.).
+Hast du die Datei `script.sh` in dieselbe Directory gelegt, in dem sich dein Programm befindet, kannst du folgendermaßen SLURM starten.
 
 ``` bash
 sbatch --partition=NvidiaAll script.sh
 ```
 
-Der Befehl `sbatch` startet euer Programm mithilfe des zuvor angelegten Skripts. Bestätigt wird dies mit einer E-Mail. Interessant ist der Parameter `--partition`. Hier gebt ihr an, welche Art von Computer ihr braucht, insbesondere in Hinblick auf benötigte GPUs. Folgende Partitionen stehen zur Verfügung:
+Der Befehl `sbatch` startet dein Programm mithilfe des zuvor angelegten Skripts. Bestätigt wird dies mit einer E-Mail. Interessant ist der Parameter `--partition`. Hiermit gibst du die benötigte Art von Computer an. Das ist wichtig falls du GPUs benötigst. Folgende Partitionen stehen zur Verfügung:
 
 - `All` - alle Rechner ohne besondere Vorgaben zur Hardware/GPU
 - `NvidiaAll` - für Jobs, die NVIDIA CUDA als Umgebung brauchen.
@@ -37,4 +37,4 @@ Der Befehl `sbatch` startet euer Programm mithilfe des zuvor angelegten Skripts.
 - `AMD`
 
 Weitere Informationen finden sich auf den [Seiten der Rechnerbetriebsgruppe](https://www.rz.ifi.lmu.de/announcements/2022-11-07a_de.html).
-Mittels der Anweisung squeue könnt ihr euch eine Liste mit allen aktuell laufenden Jobs anzeigen lassen, wo sich nun auch euer Programm finden sollte. Der Befehl `scancel 12345` beendet euren Job vorzeitig; ersetzt hierzu die `12345` durch die angezeigte Job-Nummer, die ihr mit `squeue` sehen könnt.
+Mittels der Anweisung squeue kannst du eine Liste mit allen aktuell laufenden Jobs anzeigen. Darunter befindet sich auch dein Programm. Mit `scancel <YOUR JOB NUMBER>` kannst du deinen Job auch vorzeitig beenden. Deine Jobnummer findest du mit dem Befehl `squeue`.

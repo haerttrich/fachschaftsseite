@@ -1,5 +1,5 @@
 ---
-title: "Konstituierenden Sitzung"
+title: "Konstituierenden Sitzung 2022"
 subtitle: "Ergebnisse der Hochschulwahlen"
 date: "2022-06-26"
 location: ""

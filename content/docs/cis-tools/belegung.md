@@ -3,11 +3,10 @@ title: 'Veranstaltungsbelegung'
 weight: 3
 ---
 
-Die Organisation eures Studiums umfasst nicht nur die Planung eures Stundenplans, sondern auch die rechtzeitige Belegung von Lehrveranstaltungen und die Anmeldung zu Prufungen. Diese administrativen Schritte sind essenziell, um sicherzustellen, dass
-ihr alle gewünschten Kurse besuchen und an den zugehörigen Prüfungen teilnehmen könnt. Die Belegung ist zweigeteilt in die Belegung der Lehrveranstaltung und die Anmeldung zur Prüfung.
+Die Organisation deines Studiums umfasst nicht nur die Planung deines Stundenplans, sondern auch die rechtzeitige Belegung von Lehrveranstaltungen und die Anmeldung zu Prüfungen. Diese administrativen Schritte sind essenziell, um sicherzustellen, dass du alle gewünschten Kurse besuchen und an den zugehörigen Prüfungen teilnehmen kannst. Die Belegung ist zweigeteilt in die Belegung der Lehrveranstaltung und die Anmeldung zur Prüfung.
 
 ## Aktuelle Fristen
-Diese Fristen sind bindend und Ausnahmen werden nur in begründeten Fällen gemacht. Eine Übersicht über alle wichtigen Termine und Fristen findet ihr auf der Seite des CIS unter [Termine](https://www.cis.lmu.de/ba/termine/index.html). Hier die aktuellen Termine für das Sommersemester 2024:
+Diese Fristen sind bindend und Ausnahmen werden nur in begründeten Fällen gemacht. Eine Übersicht über alle wichtigen Termine und Fristen findest du auf der Seite des CIS unter [Termine](https://www.cis.lmu.de/ba/termine/index.html). Hier die aktuellen Termine für das Sommersemester 2024:
 
 | Frist                         | Datum                 |
 |-------------------------------|-----------------------|
@@ -23,7 +22,7 @@ Diese Fristen sind bindend und Ausnahmen werden nur in begründeten Fällen gema
 
 
 ## Belegung der Lehrveranstaltung
-Die Belegung von Lehrveranstaltungen erfolgt über das LSF. Hier könnt ihr euch einen Überblick über alle verfügbaren Veranstaltungen verschaffen und die für euch relevanten Kurse auswählen. Die rechtzeitige Belegung sichert euch einen Platz in der Veranstaltung und ermöglicht Dozierenden eine bessere Planung.
+Die Belegung von Lehrveranstaltungen erfolgt über das LSF. Hier kannst du dir einen Überblick über alle verfügbaren Veranstaltungen verschaffen und die für dich relevanten Kurse auswählen. Die rechtzeitige Belegung sichert dir einen Platz in der Veranstaltung und ermöglicht Dozierenden eine bessere Planung.
 
 
 ## Prüfungsanmeldung

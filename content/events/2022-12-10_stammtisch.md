@@ -1,5 +1,5 @@
 ---
-title: "Stammtisch"
+title: "Stammtisch Dezember 2022"
 subtitle: "Lerne Kommilitionen in gemütlicher Atmosphäre kennen"
 date: "2022-12-10"
 location: "Restaurant Paradiso"

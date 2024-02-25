@@ -1,5 +1,5 @@
 ---
-title: "Alumni Treffen"
+title: "Alumni Treffen 2023"
 subtitle: "Erfahre was CL Alumni's nach dem Studium machen"
 date: "2023-05-19"
 location: "Oettingenstr. 67, 151"

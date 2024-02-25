@@ -1,5 +1,5 @@
 ---
-title: "Sommerfest"
+title: "Sommerfest 2023"
 subtitle: "Unser jährliches Sommerfest und T-Shirt Druck"
 date: "2023-06-30"
 location: "Oettingenstr. 67, 155"

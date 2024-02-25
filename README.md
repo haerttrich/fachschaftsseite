@@ -30,5 +30,12 @@ hugo new content --kind event content/events/<file_name>.md
 ```
 After creating your file adjust the frontmatter accordingly and start filling in the content itself.
 
+
+## Writing Style Rules
+- Adress Readers directly, `you`.
+- Refer to the Fachschaft or the writer of the text as `we`.
+- Be polite and inclusive
+- Use simple present for announcements, upcoming events and the documentation.
+
 ## References
 [HUGO docs](https://gohugo.io/documentation/), [Go-lang docs](https://go.dev/doc/), [Hextra Theme](https://imfing.github.io/hextra/).

@@ -1,5 +1,5 @@
 ---
-title: "Alumni Treffen"
+title: "Alumni Treffen 2022"
 subtitle: "Erfahre was CL Alumni's nach dem Studium machen"
 date: "2022-05-20"
 location: "Oettingenstr. 67, 151"

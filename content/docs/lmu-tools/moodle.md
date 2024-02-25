@@ -3,7 +3,7 @@ title: Moodle
 weight: 4
 ---
 
-[Moodle](https://moodle.lmu.de) ist die zentrale Lernplattform der Ludwig-MaximiliansUniversit¨at. Es handelt sich um ein Online-Lernmanagementsystem (LMS), das von Lehrenden und Studierenden gleichermaßen genutzt wird, um Lehrmaterialien bereitzustellen, den Unterricht zu organisieren und die Kommunikation zu erleichtern.
+[Moodle](https://moodle.lmu.de) ist die zentrale Lernplattform der Ludwig-MaximiliansUniversität. Es handelt sich um ein Online-Lernmanagementsystem (LMS), das von Lehrenden und Studierenden gleichermaßen genutzt wird, um Lehrmaterialien bereitzustellen, den Unterricht zu organisieren und die Kommunikation zu erleichtern.
 
 
 ## Hauptfunktionen von Moodle
@@ -17,4 +17,4 @@ Moodle bietet eine Vielzahl von Funktionen, die das Lernen und Lehren unterstüt
 
 
 ## Zugang zu Moodle
-Der Zugriff auf Moodle erfolgt in der Regel über eure LMU-Benutzerkennung und das dazugehörige Passwort. Nach dem Login könnt ihr eure Kurse sehen und darauf zugreifen. Oftmals ist für die erstmalige Anmeldung zu einem Kurs ein spezieller Einschreibeschlüssel notwendig, den ihr von euren Dozierenden erhaltet.
+Der Zugriff auf Moodle erfolgt in der Regel über deine LMU-Benutzerkennung und das dazugehörige Passwort. Nach dem Login kannst du deine Kurse sehen und darauf zugreifen. Oftmals ist für die erstmalige Anmeldung zu einem Kurs ein spezieller Einschreibeschlüssel notwendig, den du von den Dozierenden erhälst.

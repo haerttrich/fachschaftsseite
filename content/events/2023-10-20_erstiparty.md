@@ -1,5 +1,5 @@
 ---
-title: "Ersti-Party"
+title: "Ersti-Party 2023"
 subtitle: "Erste Woche gemeistert! Lernt eure Kommilitonen auch außerhalb des Hörsaals kennen."
 date: "2023-10-20"
 location: "Oettingenstr. 67"

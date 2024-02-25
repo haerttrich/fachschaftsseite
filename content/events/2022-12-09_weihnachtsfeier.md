@@ -1,5 +1,5 @@
 ---
-title: "Weihnachtsfeier"
+title: "Weihnachtsfeier 2022"
 subtitle: "Genieße mit uns die Weihnachtszeit"
 date: "2022-12-09"
 location: "Oettingenstr. 67, 151"
