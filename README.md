@@ -39,3 +39,7 @@ After creating your file adjust the frontmatter accordingly and start filling in
 
 ## References
 [HUGO docs](https://gohugo.io/documentation/), [Go-lang docs](https://go.dev/doc/), [Hextra Theme](https://imfing.github.io/hextra/).
+
+
+## Misc
+- Added banner in `layouts>_default>baseof.html`

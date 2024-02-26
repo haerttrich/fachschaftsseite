@@ -2,6 +2,9 @@
 <html lang="{{ .Site.Language.Lang }}">
   {{- partial "head.html" . -}}
   <body dir="ltr">
+    <div class='bg-lime-400 text-center bg-lime-400'>
+      <p class="text-slate-900">This website is just a demo and currently under construction !!!</p>
+    </div>
     {{- partial "navbar.html" . -}}
     {{- block "main" . }}{{ end -}}
     {{- if (.Site.Params.footer.enable | default true) }}{{ partial "footer.html" . }}{{ end }}

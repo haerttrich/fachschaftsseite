@@ -975,6 +975,10 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(255 247 237 / var(--tw-bg-opacity));
 }
+.bg-lime-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(33 255 52 / var(--tw-bg-opacity));
+}
 .bg-primary-100 {
   --tw-bg-opacity: 1;
   background-color: hsl(var(--primary-hue) 100% 94% / var(--tw-bg-opacity));
