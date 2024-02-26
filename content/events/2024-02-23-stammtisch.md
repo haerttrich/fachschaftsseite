@@ -1,7 +1,7 @@
 ---
 title: "Stammtisch Februar 2024"
 subtitle: "Tausche dich mit Kommilitonen aus"
-date: "2024-05-23"
+date: "2024-02-23"
 location: "tbd"
 ---
 
