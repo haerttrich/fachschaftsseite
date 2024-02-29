@@ -3,7 +3,7 @@ title: Moodle
 weight: 4
 ---
 
-[Moodle](https://moodle.lmu.de) ist die zentrale Lernplattform der Ludwig-MaximiliansUniversität. Es handelt sich um ein Online-Lernmanagementsystem (LMS), das von Lehrenden und Studierenden gleichermaßen genutzt wird, um Lehrmaterialien bereitzustellen, den Unterricht zu organisieren und die Kommunikation zu erleichtern.
+[Moodle](https://moodle.lmu.de) ist die zentrale Lernplattform der Ludwig-Maximilians-Universität. Es handelt sich um ein Online-Lernmanagementsystem (LMS), das von Lehrenden und Studierenden gleichermaßen genutzt wird, um Lehrmaterialien bereitzustellen, den Unterricht zu organisieren und die Kommunikation zu erleichtern.
 
 
 ## Hauptfunktionen von Moodle

@@ -7,7 +7,7 @@ Die Suche nach einer geeigneten Unterkunft in München kann eine Herausforderung
 
 
 ## Studentenwohnheime
-Das Studierendenwerk bietet in München mehrere Wohnheime an. Diese sind oft günstiger als der private Wohnungsmarkt. Allerdings sind die Plätze hier begrenzt, und es gibt Wartezeiten. Eine frühzeitige Bewerbung ist also ratsam. Einen Überblick über die verschiedenen Wohnanlagen gibt es unter [www.stwm.de/wohnen](www.stwm.de/wohnen).
+Das Studierendenwerk bietet in München mehrere Wohnheime an. Diese sind oft günstiger als der private Wohnungsmarkt. Allerdings sind die Plätze hier begrenzt, und es gibt Wartezeiten. Eine frühzeitige Bewerbung ist also ratsam. Einen Überblick über die verschiedenen Wohnanlagen gibt es unter [www.stwm.de/wohnen](https://www.stwm.de/wohnen).
 
 Neben den offiziellen Wohnheimen gibt es auch eine vielzahl an privat organisierten Wohnheimen. Es lohnt sich die Suche nach diesen. Der Beweerbungsprozess läuft entsprechend separat ab.
 
