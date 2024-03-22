@@ -4,13 +4,13 @@ weight: 1
 ---
 
 Die LMU Card bietet dir eine Reihe von Vorteilen und Funktionen:
-- Studierendenausweis: Die Karte dient als offizieller Nachweis eurer Studierendenstatus an der LMU.
+- Studierendenausweis: Die Karte dient als offizieller Nachweis eures Studierendenstatus an der LMU.
 - Bibliotheksausweis: Mit der LMU Card kannst du Bücher und andere Medien aus den universitären Bibliotheken ausleihen.
 - Bezahlkarte: In den Mensen und Cafeterien der LMU kann nur diese Karte als Zahlungsmittel genutzt werden.
 - Druck- und Kopierservices: In vielen Einrichtungen der LMU kannst du mit der Karte Druckdienste in Anspruch nehmen oder Kopien erstellen.
 
 ## Aktivierung und Aufladung
-Nach eurer Immatrikulation kannst du deine LMU Card beantragen und anschließend an bestimmten Ausgabestellen abholen.
+Nach deiner Immatrikulation kannst du deine LMU Card beantragen und anschließend an bestimmten Ausgabestellen abholen.
 Zum Aufladen des Guthabens für die Bezahl- und Druckfunktionen gibt es an der LMU zahlreiche Aufladestationen.
 
 

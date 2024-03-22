@@ -6,7 +6,7 @@ weight: 2
 Die LMU Benutzerkennung ist dein digitaler Zugang zur Ludwig-Maximilians-Universität. Mit dieser Kennung hast du Zugriff auf eine Vielzahl von universitären Diensten, die für dein Studium wichtig sind.
 
 ## Erstellung und Erstzugang
-Nach deiner erfolgreichen Immatrikulation an der LMU solltet du eine E-Mail mit einem Link zur Einrichtung deiner LMU-Benutzerkennung erhalten haben. Dieser Link führt dich zu einer Plattform, auf der du deine Benutzerkennung und ein dazugehöriges Passwort einrichten kannst. Falls du deinen Link noch nicht erhalten hast, prüfe bitte deine E-Mails, da dir nach der Immatrikulation eine entsprechende E-Mail zugeschickt worden sein sollte. Es ist wichtig, dass du diese Kennung so bald wie möglich aktivierst, da viele universitäre Prozesse und Services darüber laufen. Nach erfolgreicher Aktivierung kannst du dich
+Nach deiner erfolgreichen Immatrikulation an der LMU solltest du eine E-Mail mit einem Link zur Einrichtung deiner LMU-Benutzerkennung erhalten haben. Dieser Link führt dich zu einer Plattform, auf der du deine Benutzerkennung und ein dazugehöriges Passwort einrichten kannst. Falls du deinen Link noch nicht erhalten hast, prüfe bitte deine E-Mails, da dir nach der Immatrikulation eine entsprechende E-Mail zugeschickt worden sein sollte. Es ist wichtig, dass du diese Kennung so bald wie möglich aktivierst, da viele universitäre Prozesse und Services darüber laufen. Nach erfolgreicher Aktivierung kannst du dich
 damit in dein [Benutzerkonto](https://www.portal.uni-muenchen.de/benutzerkonto) einloggen.
 
 Die LMU Benutzerkennung ermöglicht dir den Zugang zu:

@@ -66,13 +66,39 @@ module.exports = {
         750: makePrimaryColor(35),
         800: makePrimaryColor(32),
         900: makePrimaryColor(24)
-      }
+      },
     },
     extend: {
-      colors: {
-        dark: '#111'
-      }
-    }
+      brightness: {
+        25: '.25',
+        50: '.5',
+        75: '.75',
+        100: '1',
+        125: '1.25',
+        150: '1.5'
+      },
+      zIndex: {
+        '0': '0',
+        '10': '10',
+        '20': '20',
+        '30': '30'
+      },
+      blur: {
+        'xs': '2px',
+        'sm': '4px',
+        'md': '8px',
+        'lg': '16px',
+        'xl': '32px'
+      },
+      brightness: {
+        25: '.25',
+        50: '.5',
+        75: '.75',
+        100: '1',
+        125: '1.25',
+        150: '1.5'
+      },
+    },
   },
   darkMode: ['class', 'html[class~="dark"]']
 };

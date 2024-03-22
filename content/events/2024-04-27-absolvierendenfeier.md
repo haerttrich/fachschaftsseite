@@ -1,7 +1,7 @@
 ---
 title: "Absolvierendenfeier 2024"
 subtitle: "Feier deinen Abschluss mit anderen Absolventen"
-date: "2024-04-01"
+date: "2024-04-27"
 location: "Oettingenstr. 67, tba"
 ---
 

@@ -7,7 +7,7 @@ Die Fachschaft managet einen Discord-Server für alle Studierenden der Computerl
 
 
 ## Discord
-Discord ist ursprünglich eine Plattform für Gamer, um während des Spielens in Echtzeit miteinander zu kommunizieren. Heute wird Discord weit uber die Gaming-Community hinaus genutzt, insbesondere von Studierenden, um Lernen, Kommunikation und sozialen Austausch zu fördern.
+Discord ist ursprünglich eine Plattform für Gamer, um während des Spielens in Echtzeit miteinander zu kommunizieren. Heute wird Discord weit über die Gaming-Community hinaus genutzt, insbesondere von Studierenden, um Lernen, Kommunikation und sozialen Austausch zu fördern.
 
 
 ## Funktionalität und Struktur

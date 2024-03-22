@@ -3,7 +3,7 @@ title: Altklausuren
 weight: 5
 ---
 
-Mit Absprache der Professoren dürfen wir dir einige Altklausuren der letzten Jahre zur Verfügung stellen. Alle Dateien sind Passwortverschlüsselt. Mittels deiner Campus-Mail kannst du das Passwort bei uns erfragen. Schreibe dazu eine entsprechende Anfrage an unsere Mail-Adresse [fachschaft@cis.uni-muenchen.de](mailto:fachschaft@cis.uni-muenchen.de).
+Mit Absprache der Professoren dürfen wir dir einige Altklausuren der letzten Jahre zur Verfügung stellen. Alle Dateien sind passwortverschlüsselt. Mittels deiner Campus-Mail kannst du das Passwort bei uns erfragen. Schreibe dazu eine entsprechende Anfrage an unsere Mail-Adresse [fachschaft@cis.uni-muenchen.de](mailto:fachschaft@cis.uni-muenchen.de).
 
 
 ## Bachelor Altkalusuren
